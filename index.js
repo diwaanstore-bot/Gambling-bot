@@ -169,7 +169,7 @@ mongoose.connect('mongodb+srv://Nael:i8VFiKISASCUzX5O@discordbot.wzwjonu.mongodb
 
 
 
-client.login("MTM4ODM4MDMxODA0MTY0MTEwMQ.GXn5zs.2oykC6hSfxGV_F7ga4AW1cYFGKT84CtA9r1C1c");
+client.login(process.env.DISCORD_TOKEN);
 
 
 // ===== Router عام للتفاعلات والاوامر + الرسائل =====
